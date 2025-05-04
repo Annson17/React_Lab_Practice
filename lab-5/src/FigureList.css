@@ -1,0 +1,19 @@
+.gallery {
+    display: flex;
+    flex-wrap: nowrap; /* Changed from wrap to nowrap */
+    gap: 16px;
+    overflow-x: auto; /* Added to enable horizontal scrolling if needed */
+}
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    justify-content: center;
+  }
+
+  
+.image-card {
+    text-align: center;
+}
